@@ -1,6 +1,4 @@
-import { FaUserShield } from "react-icons/fa"
-import { AiOutlineTeam, AiOutlineFieldTime } from "react-icons/ai"
-import { BsSpeedometer2, BsCashCoin } from "react-icons/bs"
+import { BsCashCoin } from "react-icons/bs"
 import { BiSupport } from "react-icons/bi"
 import { TbTruckDelivery } from "react-icons/tb"
 import { GiDeliveryDrone } from "react-icons/gi"
