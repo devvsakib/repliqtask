@@ -1,5 +1,6 @@
 const CustomerDetails = ({ customer }) => {
   return (
+    
     <div className='my-32'>
       <h2 className='text-3xl font-semibold font-oswald'>Customer Area</h2>
       <div>

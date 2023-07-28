@@ -10,6 +10,7 @@ const Index = () => {
     console.log(customer, slug);
     return (
         <Layout>
+            
             <CustomerDetails customer={customer} />
         </Layout>
     )

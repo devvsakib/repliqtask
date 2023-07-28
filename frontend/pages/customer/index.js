@@ -5,6 +5,7 @@ import { useContext } from 'react'
 const Customer = () => {
     const { userDetails } = useContext(AuthContext)
     return (
+        
         <Layout>
             <div className='my-32'>
                 <h2 className='text-3xl font-semibold font-oswald'>Customer Area</h2>
