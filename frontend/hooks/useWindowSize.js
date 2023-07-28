@@ -5,6 +5,7 @@ const useWindowSize = () => {
         width: undefined,
         height: undefined,
     })
+    
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
