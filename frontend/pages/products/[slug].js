@@ -13,7 +13,7 @@ const ProductDetail = () => {
 
     const handleAddToCart = (product) => {
         addToCart(product);
-        console.log(cartItems);
+        console.log(product.available);
     }
 
     return (
@@ -32,7 +32,12 @@ const ProductDetail = () => {
                         <p className='flex gap-5'><b>Brand:</b> {product?.brand ?? "Loading"}</p>
                         <p className='flex gap-5'><b>Price:</b> ${product?.price ?? "Loading"}</p>
                         <p className='flex gap-5'><b>In Stock:</b> {product?.available ? "Yes" : "No"}</p>
-                        <button onClick={() => handleAddToCart(product)} className='btn-primary'>Add To Cart</button>
+                        {
+                            !product?.available ? <p className='text-red-400'>Out of stock</p>
+                                :
+                                <button onClick={() => handleAddToCart(product)} className='btn-primary'>Add To Cart</button>
+                        }
+
                     </div>
                 </div>
             </Layout>
