@@ -1,9 +1,14 @@
 import Link from 'next/link';
-
-const ProductCard = ({ product }) => {
+import { motion } from 'framer-motion';
+const ProductCard = ({ product, idx }) => {
   return (
-    
-    <div className="bg-gray-100 rounded-lg shadow-md p-5 hover:scale-105 ease-linear duration-100">
+
+    <motion.div
+      initial={{ opacity: 0, y: "30%" }}
+      animate={{ y: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.5, delay: 0.2 * idx }}
+      className="bg-gray-100 rounded-lg shadow-md p-5 hover:scale-105 ease-linear duration-100">
       <div className="flex flex-col justify-center ">
         <Link href={`/products/${product?.slug}`}>
           <div className='bg-white p-4 rounded'>
@@ -18,7 +23,7 @@ const ProductCard = ({ product }) => {
           </div>
         </Link>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
