@@ -7,6 +7,7 @@ import SearchDD from "./SearchDD";
 import ProfileDD from "./ProfileDD";
 import Link from "next/link";
 
+
 const Header = ({ sx, customClass, toggleMobileSidebar, position }) => {
   return (
     <AppBar sx={sx} position={position} elevation={0} className={customClass}>

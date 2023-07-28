@@ -32,6 +32,7 @@ const notifications = [
 //
 // Messages dropdown
 //
+
 const messages = [
   {
     avatar: img1,

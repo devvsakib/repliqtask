@@ -11,6 +11,7 @@ const Footer = () => {
         </Link>{" "}
       </Typography>
     </Box>
+    
   );
 };
 

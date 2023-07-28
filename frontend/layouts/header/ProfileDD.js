@@ -14,6 +14,7 @@ import {
   Divider,
 } from "@mui/material";
 import { AuthContext } from "@/context/AuthProvider";
+
 const ProfileDD = () => {
   const { userDetails,logOut } = useContext(AuthContext);
   const [anchorEl4, setAnchorEl4] = React.useState(null);

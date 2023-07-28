@@ -24,6 +24,7 @@ const FullLayout = ({ children, setMenu }) => {
   const [isSidebarOpen, setSidebarOpen] = useState(true);
   const [isMobileSidebarOpen, setMobileSidebarOpen] = useState(false);
   return (
+    
     <MainWrapper>
       <Header
         sx={{
