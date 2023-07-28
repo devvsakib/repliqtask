@@ -2,6 +2,7 @@ import Link from "next/link"
 import Layout from "."
 const HeroSection = () => {
     return (
+        
         <div className="bg-gradient-to-l py-5 min-h-screen flex items-center to-teal-400/30 from-indigo-600/40">
             <Layout>
                 <div className="text-center grid md:grid-cols-2 justify-between items-center">
