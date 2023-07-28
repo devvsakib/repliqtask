@@ -19,7 +19,7 @@ const Header = () => {
     
     
     return (
-        <div className="z-10 shadow-xl w-full bg-gray-800 backdrop-blur-sm text-white py-2">
+        <div className="z-10 shadow-xl w-full backdrop-blur-sm py-4">
             <Layout>
                 <div className="navbar flex justify-between bg-base-100">
                     <div className="navbar-start">
@@ -51,7 +51,9 @@ const Header = () => {
                             </div>
                         }
                         <div className="flex gap-2 items-center">
-                            <img className="w-24" src="/logo.png" alt="" />
+                            <Link href={"/"}>
+                                <span className="text-2xl bg-gradient-to-tr to-teal-400 from-indigo-600 text-transparent bg-clip-text font-bold text-black">FantasyEco</span>
+                            </Link>
                         </div>
                     </div>
                     {/* Desktop Navbar */}
