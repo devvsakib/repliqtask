@@ -13,7 +13,7 @@ export default function Home() {
   if (isError) {
     return <div>Error: {isError.message}</div>;
   }
-
+  
   return (
     <div>
       <HeroSection />
