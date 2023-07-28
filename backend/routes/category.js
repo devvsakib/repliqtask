@@ -2,7 +2,6 @@ import express from "express";
 import Product from "../models/Product.js";
 import Category from "../models/Category.js";
 
-
 const router = express.Router();
 
 router.get("/", async (req, res)=> {
