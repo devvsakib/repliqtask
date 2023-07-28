@@ -25,7 +25,7 @@ const Header = () => {
                     <div className="navbar-start">
                         {/* Mobile */}
                         {
-                            open && <div className="absolute top-[70px] b bg-base-100 p-5 rounded-lg shadow-xl shadow-[#08A5EB]/20 w-[90%] block md:hidden bg-gray-800">
+                            open && <div className="absolute top-[70px] b bg-base-100 p-5 rounded-lg shadow-xl shadow-[#08A5EB]/20 w-[90%] block md:hidden bg-gray-800 text-white">
                                 <ul className="menu grid rounded-box w-[100%]">
                                     <ActiveLink href={"/"}>
                                         <li onClick={handleOpen} className="p-3 rounded-md cursor-pointer px-5 hover:bg-slate-700">
