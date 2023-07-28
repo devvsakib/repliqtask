@@ -30,6 +30,7 @@ app.use("/", productRouter)
 app.use("/categories", categoryRouter)
 app.use("/user", userRouter)
 
+
 app.get("/*", (req, res) => res.json({ Message: "Hi, I'm working fine✅" }))
 
 app.listen(PORT, () => console.log(`Server running at ${PORT}`))
