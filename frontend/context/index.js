@@ -8,6 +8,7 @@ const ContextProvider = ({ children }) => {
                 {children}
             </CartProvider>
         </AuthProvider>
+        
     )
 }
 
