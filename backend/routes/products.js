@@ -22,7 +22,8 @@ router.get("/product/:slug", async (req, res) => {
     }
 });
 
-// post new blog 
+
+// post 
 router.post("/", async (req, res) => {
     const { content } = req.body
     const product = req.body
