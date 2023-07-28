@@ -114,6 +114,7 @@ router.patch("/:username", auth, async (req, res) => {
     }
 });
 
+
 router.delete("/:username", async (req, res) => {
     const { username } = req.params;
     const user = await User.deleteOne({ username: username })
