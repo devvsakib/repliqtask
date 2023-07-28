@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 const ProductCard = ({ product }) => {
   return (
+    
     <div className="bg-gray-100 rounded-lg shadow-md p-5 hover:scale-105 ease-linear duration-100">
       <div className="flex flex-col justify-center ">
         <Link href={`/products/${product?.slug}`}>
