@@ -7,6 +7,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Guide = () => {
     return (
+        
         <div>
             <Accordion>
                 <AccordionSummary
