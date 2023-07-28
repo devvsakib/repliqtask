@@ -9,7 +9,7 @@ const Product = () => {
     }
 
     return (
-        <div>
+        <div className='mb-20'>
             <Layout>
                 <h1 className="my-10 bg-clip-text text-transparent bg-gradient-to-tr to-teal-400 from-indigo-600 text-xl md:text-3xl font-bold text-center">All Products</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10">
