@@ -6,6 +6,7 @@ import { toast } from 'react-hot-toast'
 import { useRouter } from "next/router";
 
 const RegisterForm = () => {
+    
     const [phone, setPhone] = useState('')
     const [isPhoneNumberValid, setIsPhoneNumberValid] = useState(false)
     const [error, setError] = useState('')
