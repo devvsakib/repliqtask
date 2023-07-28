@@ -17,6 +17,7 @@ const Header = () => {
         }
     }, [windowSize])
     
+    
     return (
         <div className="z-10 shadow-xl w-full bg-gray-800 backdrop-blur-sm text-white py-2">
             <Layout>

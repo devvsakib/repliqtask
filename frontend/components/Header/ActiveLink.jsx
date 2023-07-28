@@ -6,7 +6,6 @@ const ActiveLink = ({ href, children, handleOpen }) => {
 
     return (
         <Link href={href}
-
             onClick={handleOpen}
             className={
                 router.pathname === href ? "text-[#08A5EB]" : ""
