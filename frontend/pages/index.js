@@ -5,6 +5,7 @@ import ProductCard from "@/components/ProductCard";
 import Image from "next/image";
 import Link from "next/link";
 import { useCategories, useProducts } from "@/lib/API";
+import Feature from "@/components/Feature";
 
 export default function Home() {
   const { products, isLoading, isError } = useProducts();
@@ -13,7 +14,7 @@ export default function Home() {
   if (isError) {
     return <div>Error: {isError.message}</div>;
   }
-  
+
   return (
     <div>
       <HeroSection />
@@ -57,6 +58,9 @@ export default function Home() {
                 All Products
               </Link>
             </div>
+          </div>
+          <div className="my-36">
+            <Feature />
           </div>
         </div>
       </Layout>

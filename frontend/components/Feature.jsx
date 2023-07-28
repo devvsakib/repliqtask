@@ -1,40 +1,46 @@
-import { MdClass } from "react-icons/md"
 import { FaUserShield } from "react-icons/fa"
 import { AiOutlineTeam, AiOutlineFieldTime } from "react-icons/ai"
+import { BsSpeedometer2, BsCashCoin } from "react-icons/bs"
+import { BiSupport } from "react-icons/bi"
+import { TbTruckDelivery } from "react-icons/tb"
+import { GiDeliveryDrone } from "react-icons/gi"
 
 const Feature = () => {
     return (
         <div className="py-20" >
             <div className="grid lg:grid-cols-2 gap-10">
                 <div>
-                    <h2 className="text-2xl md:text-6xl text-center lg:text-left mb-2">A wide view <br /> in YOU</h2>
-                    <p className="text-sm">Enroll today to take your time to the best! <br /> Best Summer Camp Learning School</p>
+                    <h2 className="text-5xl md:text-6xl text-center lg:text-left mb-2">A smart view <br /> in YOU</h2>
+                    <p className="text-sm">Best phone for best person. Best price and best quality. Get your FantasY device now!
+                    </p>
                 </div>
                 <div className="grid md:grid-cols-2 gap-10">
                     <div>
-                        <button className="w-24 h-24 rounded-lg bg-primary/20 flex justify-center items-center"><MdClass className="text-4xl" /></button>
-                        <h3 className="text-xl my-2 font-semibold text-primary">Class structure</h3>
-                        <p>MusicFrame is a music school that offers a wide range of music classes for students of all ages and levels.</p>
-                    </div>
-                    <div>
-                        <button className="w-24 h-24 rounded-lg bg-primary/20 flex justify-center items-center"><AiOutlineFieldTime className="text-4xl" /></button>
-                        <h3 className="text-xl my-2 font-semibold text-primary">Time planning</h3>
+                        <button className="w-24 h-24 rounded-lg bg-primary/20 flex justify-center items-center"><TbTruckDelivery className="text-4xl" /></button>
+                        <h3 className="text-xl my-2 font-semibold text-primary">Super fast</h3>
                         <p>
-                            Time maintaining is the most important thing in our school. We always try to maintain our time.
+                            Our service is super fast. We always try to give our best service to our customers.
                         </p>
                     </div>
                     <div>
-                        <button className="w-24 h-24 rounded-lg bg-primary/20 flex justify-center items-center"><AiOutlineTeam className="text-4xl" /></button>
-                        <h3 className="text-xl my-2 font-semibold text-primary">Best Team</h3>
+                        <button className="w-24 h-24 rounded-lg bg-primary/20 flex justify-center items-center"><BsCashCoin className="text-4xl" /></button>
+                        <h3 className="text-xl my-2 font-semibold text-primary">Cash Back in every Phone</h3>
                         <p>
-                            We have the best team in our school. They are very friendly and helpful. They always try to help our students.
+                            Get cash back in every phone you buy from us. We always try to give our best service to our customers.
                         </p>
                     </div>
                     <div>
-                        <button className="w-24 h-24 rounded-lg bg-primary/20 flex justify-center items-center"><FaUserShield className="text-4xl" /></button>
-                        <h3 className="text-xl my-2 font-semibold text-primary">Best Instructors</h3>
+                        <button className="w-24 h-24 rounded-lg bg-primary/20 flex justify-center items-center"><BiSupport className="text-4xl" /></button>
+                        <h3 className="text-xl my-2 font-semibold text-primary">Best Support</h3>
                         <p>
-                            We have the best instructors in our school. They are very friendly and helpful. They always try to help our students.
+                            We provide the best support to our customers. We always try to give our best service to our customers.
+                        </p>
+                    </div>
+                    <div>
+                        <button className="w-24 h-24 rounded-lg bg-primary/20 flex justify-center items-center"><GiDeliveryDrone className="text-4xl" /></button>
+                        <h3 className="text-xl my-2 font-semibold text-primary">Special Drone Delivery</h3>
+                        <p>
+                            We provide special drone delivery to our customers. We always try to give our best service to our customers.
                         </p>
                     </div>
                 </div>
