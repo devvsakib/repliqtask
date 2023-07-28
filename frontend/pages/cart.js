@@ -10,6 +10,7 @@ const cart = () => {
   const handlePayment = () => { }
 
   return (
+    
     <Layout>
       <div className='w-[100%] grid  md:grid-cols-3 mt-16 mb-20 gap-10'>
         {/* Cart Items Start */}
