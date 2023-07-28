@@ -114,7 +114,7 @@ const LoginForm = () => {
           <div className="flex items-center gap-3">
             <p>New to FantasiStore?</p>
             <Link href={'/register'}>
-              <button type="button" className="btn btn-outline-primary">
+              <button type="button" className="btn btn-outline-primary text-teal-400">
                 Register
               </button>
             </Link>

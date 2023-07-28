@@ -130,7 +130,7 @@ const RegisterForm = () => {
                     <div className="flex items-center gap-3">
                         <p>Already have an account?</p>
                         <Link href={'/login'}>
-                            <button type="button" className="btn btn-outline-primary">
+                            <button type="button" className="btn btn-outline-primary text-teal-400">
                                 Login
                             </button>
                         </Link>
