@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import useSWR from 'swr';
 
 const api = axios.create({
-       baseURL: 'http://localhost:5000/'
+       baseURL: 'https://fantasiserver.onrender.com/'
 });
 
 export function useProducts() {
