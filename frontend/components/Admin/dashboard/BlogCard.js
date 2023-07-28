@@ -6,6 +6,7 @@ import user2 from "@/assets/images/backgrounds/u3.jpg";
 import user3 from "@/assets/images/backgrounds/u4.jpg";
 
 const blogs = [
+  
   {
     img: user1,
     title: "Super awesome, Angular 12 is coming soon!",

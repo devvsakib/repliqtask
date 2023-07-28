@@ -5,6 +5,7 @@ import api from "@/lib/API";
 
 const Products = ({products}) => {
   return (
+    
     <Grid item xs={12} lg={12}>
       <ProductPerfomance products={products} />
     </Grid>

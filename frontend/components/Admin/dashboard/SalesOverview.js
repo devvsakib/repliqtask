@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import BaseCard from "../../baseCard/BaseCard";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
+
 const SalesOverview = () => {
   const optionssalesoverview = {
     grid: {

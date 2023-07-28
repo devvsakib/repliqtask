@@ -8,6 +8,7 @@ import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import BaseCard from "../../baseCard/BaseCard";
 
+
 const activities = [
   {
     time: "09.50",

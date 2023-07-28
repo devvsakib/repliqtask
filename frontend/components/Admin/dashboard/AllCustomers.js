@@ -12,6 +12,7 @@ import {
 import BaseCard from "../../baseCard/BaseCard";
 import Link from "next/link";
 
+
 const AllCustomers = ({ customers }) => {
   return (
     <BaseCard title="Customers">

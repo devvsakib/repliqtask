@@ -11,6 +11,7 @@ import {
 import BaseCard from "../../baseCard/BaseCard";
 import Link from "next/link";
 
+
 const ProductPerfomance = ({ type, products }) => {
   return (
     <BaseCard title={`${type ? type : ""} Products`}>
