@@ -6,6 +6,7 @@ const category = {
         required: true
     },
     brand: {
+
         type: String,
         required: true
     },
@@ -14,7 +15,6 @@ const category = {
         required: true
     }
 }
-
 const CategorySchema = mongoose.Schema(category);
 const Category = mongoose.model("categories", CategorySchema);
 
