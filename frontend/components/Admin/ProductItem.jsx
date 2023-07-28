@@ -7,7 +7,6 @@ const ProductItem = ({ item }) => {
                 <img className='w-12' src={item?.image} alt="prod img" />
             </div>
             <div className='text-left'>
-
             <h2>{item?.model}</h2>
             </div>
             <div className='review-details'>
