@@ -19,7 +19,7 @@ export default function Home() {
       <HeroSection />
       <Layout>
         <div className="my-20">
-          <h3 className="font-semibold text-xl">Explore Brands</h3>
+          <h1 className="mb-10 bg-clip-text text-transparent bg-gradient-to-tr to-teal-400 from-indigo-600 text-xl md:text-3xl font-bold text-center">Explore Brands</h1>
           <div>
             {
               isLoading && <Image
@@ -35,8 +35,8 @@ export default function Home() {
               categories?.map(category => <Category key={category.id} category={category} />)
             }
           </div>
-          <div className="my-32">
-            <h1 className="mb-5 bg-clip-text text-transparent bg-gradient-to-tr to-teal-400 from-indigo-600 text-xl md:text-3xl font-bold text-center">Awesome Products</h1>
+          <div className="my-36">
+            <h1 className="mb-10 bg-clip-text text-transparent bg-gradient-to-tr to-teal-400 from-indigo-600 text-xl md:text-3xl font-bold text-center">Awesome Products</h1>
             <div>
               {
                 isLoading && <Image
