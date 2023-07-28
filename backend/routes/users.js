@@ -6,6 +6,7 @@ import User from "../models/User.js";
 
 const router = expres.Router();
 
+
 const auth = async (req, res, next) => {
     const token = req.headers.authorization;
     if (token) {
