@@ -3,7 +3,6 @@ import Product from "../models/Product.js";
 import jwt from "jsonwebtoken"
 
 const router = express.Router();
-
 // get all blogs
 router.get("/", async (req, res) => {
     const allProduct = await Product.find();
