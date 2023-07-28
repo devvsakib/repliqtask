@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    font-family: "Roboto", sans-serif;
+}
+#__next{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+
+
+.btn-primary{
+    @apply hover:bg-teal-400 bg-[#0b7baf] transition-all duration-150 ease-linear mt-5 text-white px-5 py-2 rounded-sm
+}
+
+.footerTitle{
+    @apply uppercase font-bold text-2xl mb-5 font-oswald text-white
+}
+.footerIcon{
+    @apply p-3 rounded-full bg-teal-400 hover:bg-primary transition-all duration-200 cursor-pointer ease-linear
+}
+.borderRadius {
+    border-radius: 6px;
+}
+.roundedCircle {
+    border-radius: 100%;
+}
+  
+
+@media screen and (max-width: 768px) {
+    .css-46bh2p-MuiCardContent-root {
+        overflow-x: scroll;
+    }    
+}
