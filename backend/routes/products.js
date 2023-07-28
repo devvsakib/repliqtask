@@ -74,6 +74,7 @@ router.patch("/product/:id", async (req, res) => {
     }
 })
 
+
 // delete post, if user authenticated
 router.delete("/product/:id", async (req, res) => {
     try {
