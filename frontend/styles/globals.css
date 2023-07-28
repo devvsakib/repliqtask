@@ -30,8 +30,7 @@ main{
 .roundedCircle {
     border-radius: 100%;
 }
-  
-
+ 
 @media screen and (max-width: 768px) {
     .css-46bh2p-MuiCardContent-root {
         overflow-x: scroll;
