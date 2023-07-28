@@ -9,4 +9,5 @@ router.get("/", async (req, res)=> {
     getCategories.length  > 0 ? res.json(getCategories) : res.json({mesage: "No Category Found"})
 })
 
+
 export {router as categoryRouter}
